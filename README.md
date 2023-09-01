@@ -1,16 +1,37 @@
-# api_test
 
-A new Flutter project.
+# Working with REST API — Flutter
 
-## Getting Started
+A little practice to how work with a API in Flutter using CODEMAGIC Guide
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
+## Authors
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- [@Joshdroid250](https://github.com/Joshdroid250)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
+## Documentation
+
+[CODEMAGIC Working with REST APIs — Flutter](https://blog.codemagic.io/rest-api-in-flutter/)
+
+
+
+![Logo](https://upload.wikimedia.org/wikipedia/commons/1/17/Google-flutter-logo.png)
+
+
+## Run Locally
+
+Clone the project
+
+```bash
+  git clone https://github.com/Joshdroid250/api_flutter.git
+```
+
+
+
+## Deployment
+
+To deploy this project run
+
+```
+  Android Studio
+```

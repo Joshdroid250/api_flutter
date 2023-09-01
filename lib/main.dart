@@ -59,36 +59,3 @@ class _MyHomePageState extends State<MyHomePage> {
     );
   }
 }
-
-
-
-class Post {
-  final int userId;
-  final int id;
-  final String title;
-  final String body;
-
-  Post({this.userId, this.id, this.title, this.body});
-
-  factory Post.fromJson(Map<String, dynamic> json){
-    return Post(
-      userId: json['userId'],
-      id: json['id'],
-      title: json['title'],
-      body: json['body'],
-    );
-  }
-}
-
-Future<Post> fetchPost() async {
-  final response =
-  await http.get(Uri.parse('https://jsonplaceholder.typicode.com/posts/1'));
-
-  if (response.statusCode == 200) {
-    // Si el servidor devuelve una repuesta OK, parseamos el JSON
-    return Post.fromJson(json.decode(response.body));
-  } else {
-    // Si esta respuesta no fue OK, lanza un error.
-    throw Exception('Failed to load post');
-  }
-}

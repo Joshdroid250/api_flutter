@@ -18,20 +18,7 @@ A little practice to how work with a API in Flutter using CODEMAGIC Guide
 ![Logo](https://upload.wikimedia.org/wikipedia/commons/1/17/Google-flutter-logo.png)
 
 
-## Run Locally
+## License
 
-Clone the project
+[MIT](https://github.com/Joshdroid250/api_flutter/blob/main/LICENSE/)
 
-```bash
-  git clone https://github.com/Joshdroid250/api_flutter.git
-```
-
-
-
-## Deployment
-
-To deploy this project run
-
-```
-  Android Studio
-```
